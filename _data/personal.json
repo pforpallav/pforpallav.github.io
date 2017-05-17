@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Kumar Pallav",
+        "website": "http://kumarpallav.com",
+        "email": "me@kumarpallav.com",
+        "email2": "pforpallav@gmail.com",
+        "phone": "+1-206-910-0006",
+        "linkedin":"",
+        "languages": [
+            {
+                "language": "C++"
+            },
+            {
+                "language": "CSharp"
+            },
+            {
+                "language": "JavaScript"
+            },
+            {
+                "language": "Java"
+            },
+            {
+                "language": "C"
+            }
+        ],
+        "technologies": [
+            {
+                "technology": "NodeJs"
+            },
+            {
+                "technology": "UWP"
+            },
+            {
+                "technology": "Win32"
+            }
+        ]
+    }
+]

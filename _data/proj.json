@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Course Allotment Simulation using SAT Solver",
+        "description": "As part of Bachelors project, worked on solving the real world problem of finding a best course allocation under various constraints as a SAT (Satisfiability) problem and infer effects of different policies on course allotment and choices. Studied relative efficiency of various heuristics modeled on different solvers like MiniSAT and Glucose."
+    },
+    {
+        "title": "IIT Bombay Hospital Digitization",
+        "description": "Created a complete web application in Java that could handle operations on relational MySQL databases to handle various processes of the university hospital."
+    },
+    {
+        "title": "Simple 2D Physics Engine",
+        "description": "Wrote a physics engine for simple round bodies providing a back-end that could generate coordinates in real-time with collision, gravity, restitution and custom resolution of time."
+    },
+    {
+        "title": "Social Sea",
+        "description": "Create a lightweight social search engine that shows the results ranked (using page-ranking) according to one's peer-group search history and rating."
+    }
+]

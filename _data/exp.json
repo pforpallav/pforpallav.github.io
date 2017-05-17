@@ -1,0 +1,61 @@
+[
+    {
+        "company": "Microsoft",
+        "company_location": "Redmond, WA",
+        "role": "Software Engineer",
+        "team": "OneNote",
+        "time_duration": "Jun 2016 - Present",
+        "details": [
+            {
+                "title": "Magic Ink and Ink Lookup",
+                "description": "Worked on recognizing ink strokes into words (using onboard IA) and recognizing keywords/entities given the context (using custom entity recognition service). Implemented accumulation of images or interactive widgets (from various online sources) related to the keyword, which could be inserted onto the Whiteboard canvas."
+            },
+            {
+                "title": "Whiteboard App",
+                "description": "Implemented sharing experience for the new collaboration focused Whiteboard app. Worked on creating and joining a shared session via OneDrive for Business storage. Also added new XAML components to handle dialogs within the app."
+            },
+            {
+                "title": "Content Addins",
+                "description": "Implemented content addins, for OneNote desktop app, as small embedded web apps that would get hosted within managed WebView controls. Created their persistence model and rendering on the desktop application."
+            }
+        ]
+    },
+    {
+        "company": "Microsoft",
+        "company_location": "Vancouver, Canada",
+        "role": "Software Engineer",
+        "team": "OneNote",
+        "time_duration": "Nov 2014 - May 2016",
+        "details": [
+            {
+                "title": "Embedded Videos and Web Content",
+                "description": "Worked on adding ability on OneNote to host web content, making sure it is backwards compatible. Implemented features to make handling and editing web content on the OneNote page easier. Added support for this feature on OneNote web app."
+            },
+            {
+                "title": "Merged Cells for Tables",
+                "description": "Added support for spanned cells for tables in OneNote, keeping in mind backwards compatibility. Implemented these capabilities in OneNote web app."
+            },
+            {
+                "title": "Realtime Ink",
+                "description": "As a ramp up project, prototyped ink collaboration using SignalR web-sockets. Worked on experimenting load and delay with multiple inputs in realtime."
+            }
+        ]
+    },
+    {
+        "company": "Oracle",
+        "company_location": "Bangalore, India",
+        "role": "Software Engineering Intern",
+        "team": "Apps for Enterprises",
+        "time_duration": "Nov 2014 - May 2016",
+        "details": [
+            {
+                "title": "Containerization of iOS Apps",
+                "description": "Worked on sand-boxing of enterprise applications (containerization) which enable them to be installed on employee's iOS devices without worrying about security issues. Implemented wrapping of library function calls using swizzling, objective-c backend, linker flags and dynamic library injection."
+            },
+            {
+                "title": "Sandboxed Browser App",
+                "description": "Built a demo browser application for iOS. Containerized the app using the custom script, so that it only works for certain urls."
+            }
+        ]
+    }
+]
