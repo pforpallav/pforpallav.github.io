@@ -1,3 +1,7 @@
+---
+title: Kumar Pallav
+---
+{% assign personalData = site.data.personal[0] %}
 <!DOCTYPE html>
 <html>
   <head>
@@ -9,10 +13,80 @@
     <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
     <script src="javascripts/main.js"></script>
 
-    <title>Kumar Pallav</title>
+    <title>{{ personalData.name }}</title>
   </head>
 
   <body>
-    <iframe src="https://docs.google.com/gview?url=https://pforpallav.github.io/kumarpallav_resume.pdf&embedded=true" frameborder="0" class="iframe_gview" />
+
+    <div class="personal_info">
+      <span class="name"><h2>{{ personalData.name }}</h2></span>
+      <span class="email">
+        Email: <a href="mailto:{{ personalData.email }}">{{ personalData.email }}</a>
+      </span>
+      <span class="phone">
+        Phone: {{ personalData.phone }}
+      </span>
+    </div>
+
+    <div class="section">
+      <span class="section header"><h3>Education</h3></span>
+      <ul>
+      {% for schoolData in site.data.edu %}
+        <li>
+            {{ schoolData.school }} : {{ schoolData.school_location }} <br/>
+            {{ schoolData.degree }} : {{ schoolData.time_period }} <br/>
+        </li>
+      {% endfor %}
+      </ul>
+    </div>
+
+    <div class="section">
+      <span class="section header"><h3>Experience</h3></span>
+      <ul>
+      {% for experience in site.data.exp %}
+        <li>
+            {{ experience.company }} : {{ experience.company_location }} <br/>
+            {{ experience.role }}, {{ experience.team }} : {{ experience.time_duration }} <br/>
+            <ul>
+              {% for detail in experience.details %}
+              <li>
+                {{ detail.title }} : {{ detail.description }}
+              </li>
+              {% endfor %}
+            </ul>
+        </li>
+      {% endfor %}
+      </ul>
+    </div>
+
+    <div class="section">
+      <span class="section header"><h3>Projects</h3></span>
+      <ul>
+      {% for project in site.data.proj %}
+        <li>
+            {{ project.title }} : {{ project.description }}
+        </li>
+      {% endfor %}
+      </ul>
+    </div>
+
+    <div class="section">
+      <span class="section header"><h3>Skills</h3></span>
+      <ul>
+        <li>
+          Languages : 
+          {% for language in personalData.languages %}
+            {{language.language}}
+          {% endfor %}
+        </li>
+        <li>
+          Technologies : 
+          {% for technology in personalData.technologies %}
+            {{technology.technology}}
+          {% endfor %}
+        </li>
+      </ul>
+    </div>
+
   </body>
 </html>
