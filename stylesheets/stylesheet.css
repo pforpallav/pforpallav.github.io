@@ -5,4 +5,11 @@ html {
 
 body {
   margin: 0px;
+  height: 100%;
+}
+
+.iframe_gview {
+  height: 100%;
+  width: 100%;
+  border: 0px;
 }
