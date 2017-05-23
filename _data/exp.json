@@ -8,11 +8,11 @@
         "details": [
             {
                 "title": "Magic Ink and Ink Lookup",
-                "description": "Worked on recognizing ink strokes into words (using onboard IA) and recognizing keywords/entities given the context (using custom entity recognition service). Implemented accumulation of images or interactive widgets (from various online sources) related to the keyword, which could be inserted onto the Whiteboard canvas."
+                "description": "Worked on recognizing ink strokes into words (using onboard IA) and recognizing keywords/entities given the context (using custom entity recognition service). Implemented accumulation of images and interactive widgets (from various online sources) related to the keyword, to be inserted onto Whiteboard canvas."
             },
             {
                 "title": "Whiteboard App",
-                "description": "Implemented sharing experience for the new collaboration focused Whiteboard app. Worked on creating and joining a shared session via OneDrive for Business storage. Also added new XAML components to handle dialogs within the app."
+                "description": "Implemented sharing experience for the new collaboration focused Whiteboard app. Worked on creating and joining a shared session via OneDrive for Business storage. Additionaly, added new XAML components to handle dialogs within the app."
             },
             {
                 "title": "Content Addins",
@@ -50,11 +50,11 @@
         "details": [
             {
                 "title": "Containerization of iOS Apps",
-                "description": "Worked on sand-boxing of enterprise applications (containerization) which enable them to be installed on employee's iOS devices without worrying about security issues. Implemented wrapping of library function calls using swizzling, objective-c backend, linker flags and dynamic library injection."
+                "description": "Worked on sand-boxing of enterprise applications (containerization), enabling their installation on employee's iOS devices, without worrying about security concerns. Implemented wrapping of library function calls using swizzling, objective-c backend, linker flags and dynamic library injection."
             },
             {
                 "title": "Sandboxed Browser App",
-                "description": "Built a demo browser application for iOS. Containerized the app using the custom script, so that it only works for certain urls."
+                "description": "Built a demo browser application for iOS. Containerized the app using the custom script, for it to work only for whitelisted urls."
             }
         ]
     }
