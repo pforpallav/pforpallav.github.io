@@ -34,6 +34,7 @@ function printExpItems(file)
       tex.print("\\resumeItem")
       tex.print("{" .. value["title"] .. "}")
       tex.print("{" .. value["description"] .. "}")
+      tex.print("{" .. value["languages"] .. "}")
     end
     tex.print("\\resumeItemListEnd")
   end
@@ -45,6 +46,7 @@ function printProjItems(file)
     tex.print("\\resumeSubItem")
     tex.print("{" .. value["title"] .. "}")
     tex.print("{" .. value["description"] .. "}")
+    tex.print("{" .. value["languages"] .. "}")
   end
 end
 
@@ -63,7 +65,7 @@ function printHeading(file)
     tex.print("\\href")
     tex.print("{" .. value["website"] .. "/}")
     tex.print("{" .. value["website"] .. "}")
-    tex.print(" & Mobile : " .. value["phone"] .. "\\\\")
+    tex.print(" & Phone : " .. value["phone"] .. "\\\\")
 
     tex.print("\\end{tabular*}")
   end
