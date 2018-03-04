@@ -50,7 +50,11 @@ title: Kumar Pallav
             <ul style="margin-top: 0.2em; list-style-type: circle;">
               {% for detail in experience.details %}
               <li class="content is-marginless" style="font-size: 0.8rem">
-                <span class="heading is-marginless">{{ detail.title }}</span>{{ detail.description }}
+                <span class="heading is-marginless">
+                  {{ detail.title }}
+                  <span style="margin-left:  5px; font-size: 10px; font-family:  monospace; color: #00d1b2;">{{ detail.languages }}</span>
+                </span>
+                {{ detail.description }}
               </li>
               {% endfor %}
             </ul>
@@ -60,7 +64,10 @@ title: Kumar Pallav
         <div class="content">
           <span class="heading"><h3>Projects</h3></span>
           {% for project in site.data.proj %}
-            <p class="heading is-marginless">{{ project.title }}</p>
+            <p class="heading is-marginless">
+              {{ project.title }}
+              <span style="margin-left:  5px; font-size: 10px; font-family:  monospace; color: #00d1b2;">{{ project.languages }}</span>
+            </p>
             <p style="font-size: 0.8rem">{{ project.description }}</p>
           {% endfor %}
         </div>
