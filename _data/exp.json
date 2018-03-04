@@ -41,6 +41,11 @@
                 "languages": "C++ C\\#"
             },
             {
+                    "title": "Merged Cells for Tables",
+                    "description": "Added support for spanned cells for tables in OneNote, keeping in mind backwards compatibility. Implemented these capabilities in OneNote web app.",
+                    "languages": "C++ C\\#"
+            },
+            {
                 "title": "Realtime Ink",
                 "description": "As a ramp up project, prototyped ink collaboration using SignalR web-sockets. Worked on experimenting load and delay with multiple inputs in realtime.",
                	"languages": "C++ C\\#"
