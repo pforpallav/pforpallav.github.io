@@ -7,7 +7,7 @@
         "time_duration": "Jun 2016 - Present",
         "details": [
         	{
-                "title": "Hierarchy Sync for Notebooks",
+                "title": "Modern Hierarchy Sync",
                 "description": "Worked on a new sync platform which would load notebook structure and hierarchy faster than the current state of the art. Implemented client side representation of this hierarchy, derived from existing representation. Added functionality to be able use the new representation without the need of resetting cache or reloading the notebook. Built a small tool to visualize and debug this new representation.",
                 "languages":"C++ nodejs"
             },
@@ -38,11 +38,6 @@
             {
                 "title": "Embedded Videos and Web Content",
                 "description": "Worked on adding ability on OneNote to host web content, making sure it is backwards compatible. Implemented features to make handling and editing web content on the OneNote page easier. Added support for this feature on OneNote web app.",
-                "languages": "C++ C\\#"
-            },
-            {
-                "title": "Merged Cells for Tables",
-                "description": "Added support for spanned cells for tables in OneNote, keeping in mind backwards compatibility. Implemented these capabilities in OneNote web app.",
                 "languages": "C++ C\\#"
             },
             {
