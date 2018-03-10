@@ -58,14 +58,14 @@ function printHeading(file)
     tex.print("\\textbf{\\href")
     tex.print("{" .. value["website"] .. "/}")
     tex.print("{\\Large " .. value["name"] .. "}}")
-    tex.print(" & Email : \\href")
+    tex.print(" & Email: \\href")
     tex.print("{mailto:" .. value["email"] .. "}")
     tex.print("{" .. value["email"] .. "}\\\\")
 
     tex.print("\\href")
     tex.print("{" .. value["website"] .. "/}")
     tex.print("{" .. value["website"] .. "}")
-    tex.print(" & Phone : " .. value["phone"] .. "\\\\")
+    tex.print(" & Phone: " .. value["phone"] .. "\\\\")
 
     tex.print("\\end{tabular*}")
   end

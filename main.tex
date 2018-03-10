@@ -14,7 +14,11 @@
 \usepackage{verbatim}
 \usepackage{enumitem}
 \usepackage{fancyhdr}
-\usepackage[urw-garamond]{mathdesign}
+
+\usepackage[T1]{fontenc}
+\usepackage{Alegreya} %% Option 'black' gives heavier bold face 
+\renewcommand*\oldstylenums[1]{{\AlegreyaOsF #1}}
+
 \RequirePackage{luatex85}
 \usepackage{pdfcomment}
 \usepackage{luacode}
